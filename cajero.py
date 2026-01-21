@@ -227,12 +227,12 @@ class CajeroAutomatico:
         botones_frame.pack(expand=True)
         
         botones = [
-            ("💰 Consultar Saldo", self.consultar_saldo),
-            ("📤 Retirar Dinero", self.retirar_dinero),
-            ("📥 Depositar Dinero", self.depositar_dinero),
-            ("💸 Transferir", self.transferir),
-            ("📊 Ver Movimientos", self.ver_movimientos),
-            ("🚪 Salir", self.cerrar_sesion)
+            (" Consultar Saldo", self.consultar_saldo),
+            (" Retirar Dinero", self.retirar_dinero),
+            (" Depositar Dinero", self.depositar_dinero),
+            (" Transferir", self.transferir),
+            (" Ver Movimientos", self.ver_movimientos),
+            (" Salir", self.cerrar_sesion)
         ]
         
         for i, (texto, comando) in enumerate(botones):
@@ -632,7 +632,7 @@ class CajeroAutomatico:
         
         tk.Label(
             main_frame,
-            text="📊 HISTORIAL DE MOVIMIENTOS",
+            text="HISTORIAL DE MOVIMIENTOS",
             font=("Arial", 24, "bold"),
             bg="#1e293b",
             fg="#667eea"
